@@ -1,0 +1,26 @@
+{
+  "name": "duck-type",
+  "version": "0.0.1",
+  "description": "Duck Type System",
+  "main": "duck-type.js",
+  "scripts": {
+    "test": "node duck-type.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenyu1997/duck-type"
+  },
+  "keywords": [
+    "duck",
+    "type",
+    "interface",
+    "define",
+    "verify"
+  ],
+  "author": "Shen Yu <shenyu1997@gmail.com> (https://github.com/shenyu1997)",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/shenyu1997/duck-type/issues"
+  },
+  "homepage": "https://github.com/shenyu1997/duck-type"
+}
