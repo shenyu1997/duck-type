@@ -4,7 +4,7 @@
   "description": "Duck Type System",
   "main": "duck-type.js",
   "scripts": {
-    "test": "node duck-type.js"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,15 @@
     "verify"
   ],
   "author": "Shen Yu <shenyu1997@gmail.com> (https://github.com/shenyu1997)",
-  "license": "Apache License",
+  "license": [{
+    "type":"Apache License",
+    "url":"http://www.apache.org/licenses/LICENSE-2.0"
+    }],
   "bugs": {
     "url": "https://github.com/shenyu1997/duck-type/issues"
   },
-  "homepage": "https://github.com/shenyu1997/duck-type"
+  "homepage": "https://github.com/shenyu1997/duck-type",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
 }
